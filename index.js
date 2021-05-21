@@ -27,9 +27,7 @@ mongoose
 // usamos el router
 app.use('/api', router);
 app.use(cors());
-app.get('/', (req, res) => {
-    res.send('Hello world');
-  });
+
 
 
 // el server escucha todo
